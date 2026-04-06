@@ -1,0 +1,42 @@
+# Environment variables
+.env
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/
+
+# Mypy cache
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
+
+# Local database files (if using chromadb etc.)
+*.sqlite3
+*.db
+chroma/
